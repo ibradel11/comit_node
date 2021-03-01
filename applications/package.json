@@ -1,0 +1,20 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "server2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibradel11/comit_node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ibradel11/comit_node/issues"
+  },
+  "homepage": "https://github.com/ibradel11/comit_node#readme"
+}
