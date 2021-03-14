@@ -2,7 +2,7 @@ const cuid = require("cuid");
 const db = require("../db.js");
 
 const itemCategories = [
-  "watersports",
+  "clean",
   "soccer",
   "basketball",
   "hockey",
