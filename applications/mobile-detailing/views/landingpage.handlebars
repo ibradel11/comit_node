@@ -73,32 +73,3 @@
     <p class="lead">The background images for the slider are set directly in the HTML using inline CSS. The images in this snippet are from <a href="https://unsplash.com">Unsplash</a>!</p>
   </div>
 </section>
-
-
-<nav class="side-menu">
-    <ul class="nav-links">
-        <li>
-            <a href="/"><button>All</button></a>
-        </li>
-        {{#each itemCategories}}
-        <li>
-            <a href="?category={{this}}"><button>{{this}}</button></a>
-        </li>
-        {{/each}}
-    </ul>
-</nav>
-
-<section class="content">
-    <ul class="items">
-        {{#each items}}
-        <li>
-            <img src={{imageUrl}} alt="" height="50px" width="50px" />
-            <h2>{{name}}</h2>
-            <span>${{price}}</span>
-            <p>{{description}}</p>
-            <button>Add To Cart</button>
-        </li>
-        {{/each}}
-    </ul>
-</section>
-
