@@ -41,6 +41,17 @@ app.get("/", async (req, res) => {
   res.render("home", { items: itemsToDisplay, itemCategories });
 });
 
+app.get("/landingpage", async (req, res) => {
+  const items = await product.list();
+  const itemCategories = product.itemCategories;
+
+  const itemsToDisplay = req.query.category
+    ? items.filter((item) => item.category === req.query.category)
+    : items;
+
+  res.render("landingpage");
+});
+
 app.get("/about", (req, res) => {
   res.send("Our company has been providing great service for over 20 years!");
 });
