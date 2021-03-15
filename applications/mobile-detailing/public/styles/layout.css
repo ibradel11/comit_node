@@ -5,6 +5,7 @@
   grid-template-areas:
     "header header header"
     "nav items items"
+    "landingpage landingpage landingpage"
     "footer footer footer";
   row-gap: 1rem;
 }
@@ -23,6 +24,9 @@
 
 .content {
   grid-area: items;
+}
+.landingpage {
+  grid-area: landingpage;
 }
 
 .footer {
