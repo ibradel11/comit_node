@@ -41,6 +41,7 @@
   background-color: var(--info-button);
   padding: var(--tiny-size) var(--small-size);
   border-radius: var(--large-border-radius);
+  font-size: 18px;
 }
 
 .items li p {

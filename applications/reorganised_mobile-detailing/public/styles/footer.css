@@ -1,8 +1,12 @@
 .footer {
+  background-color: #08233e;
+  color: var(--white);
   padding: var(--med-size);
-  border-top: var(--tiny-size) solid var(--white);
+  border-top: var(--tiny-size) solid var(--black);
+  font-size: 14px;
+  font-weight: 1.2;
 }
 
 .footer a {
-  color: var(--medium-green);
+  color: var(--white);
 }

@@ -1,5 +1,5 @@
 :root {
-  font-size: 16px;
+  font-size: 14px;
 
   --med-size: 1em;
   --small-size: calc(var(--med-size) / 2);
@@ -19,8 +19,8 @@
 
   /* Bootstrap buttons*/
   --primary-button: #337ab7;
-  --success-button: #5cb85c;
-  --info-button: #5bc0de;
+  --success-button: #fa8500;
+  --info-button: #ffffff;
   --warning-button: #f0ad4e;
   --danger-button: #d9534f;
 
@@ -38,15 +38,15 @@ body {
   font-family: "Roboto", "sans-serif";
   line-height: 1.4;
   letter-spacing: 0.01em;
-  background-color: var(--black);
-  color: var(--white);
+  background-color: var(--white);
+  color: var(--black);
 }
 
 h1,
 h2,
 h3,
 h4 {
-  font-family: "Sansita", serif;
+  font-family: "roboto", serif;
 }
 
 body,
@@ -65,7 +65,7 @@ li {
 
 button {
   cursor: pointer;
-  color: var(--white);
+  color: var(--black);
 }
 
 a {
@@ -84,6 +84,6 @@ a {
 }
 
 .container {
-  max-width: 1080px;
+  max-width: 1440px;
   margin: 0 auto;
 }
