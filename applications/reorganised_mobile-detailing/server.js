@@ -14,6 +14,7 @@ const {
   renderLoginForm,
   processLoginSubmission,
   renderLogout,
+  
 } = require("./controllers/userController.js");
 const {
   renderUserCart,
@@ -51,7 +52,10 @@ app.post("/login", processLoginSubmission);
 app.get("/cart", validateAuthentication, renderUserCart);
 app.post("/cart", validateAuthentication, addItemToCart);
 
-app.get("/landingpage");
+//app.get("/new",  function (req, res) {
+ // res.render("/new") })
+
+;
 
 
 // error handling middleware
