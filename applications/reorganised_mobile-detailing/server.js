@@ -51,6 +51,9 @@ app.post("/login", processLoginSubmission);
 app.get("/cart", validateAuthentication, renderUserCart);
 app.post("/cart", validateAuthentication, addItemToCart);
 
+app.get("/landingpage");
+
+
 // error handling middleware
 app.use((req, res, next) => {
   res.status(404).render("error", { message: "Page not found" });
