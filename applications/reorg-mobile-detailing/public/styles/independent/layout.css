@@ -1,0 +1,125 @@
+
+.container {
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto auto auto;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  grid-template-areas:
+    "header header header header"
+    "slider slider slider slider"
+    "data data data data"
+    "void1 package1img package1 void2"
+    "void21 package2 package2img void22"
+    "void31 package3img package3 void32"
+    "void41 package4 package4img void42"
+    "footer footer footer footer";
+  row-gap: 3rem;
+  column-gap: 1rem;
+}
+
+.header {
+  grid-area: header;
+}
+
+.login {
+  grid-area: account;
+}
+
+.side-menu {
+  grid-area: nav;
+}
+
+.content {
+  grid-area: items;
+}
+.data {
+  grid-area: data;
+  text-align: center;
+  font-size: 30px;
+background-color: cornsilk;
+
+}
+
+.slider {
+  grid-area: slider;
+}
+
+.void1 {
+  grid-area: void1;
+}
+.package1img {
+  grid-area: package1img;
+  max-width: 300px !important;
+  max-height: auto;
+ 
+}
+.package1 {
+  grid-area: package1;
+  text-align: center;
+  font-size: 30px;
+background-color: rgb(255, 255, 255);
+}
+
+.void2 {
+  grid-area: void2;
+}
+.void21 {
+  grid-area: void21;
+}
+.package2 {
+  grid-area: package2;
+  text-align: center;
+  font-size: 30px;
+background-color: rgb(255, 255, 255);
+}
+.package2img {
+  grid-area: package2img;
+  max-width: 300px;
+  max-height: auto;
+  
+}
+
+.void22 {
+  grid-area: void22;
+}
+.void31 {
+  grid-area: void31;
+}
+.package3img {
+  grid-area: package3img;
+  max-width: 300px;
+  max-height: auto;
+  
+}
+.package3 {
+  grid-area: package3;
+  text-align: center;
+  font-size: 30px;
+background-color: rgb(255, 255, 255);
+}
+
+.void32 {
+  grid-area: void32;
+}
+
+.void41 {
+  grid-area: void41;
+}
+.package4 {
+  grid-area: package4;
+  text-align: center;
+  font-size: 30px;
+background-color: rgb(255, 255, 255);
+}
+.package4img {
+  grid-area: package4img;
+  max-width: 300px;
+  max-height: auto;
+  
+}
+
+.void42 {
+  grid-area: void22;
+}
+.footer {
+  grid-area: footer;
+}
