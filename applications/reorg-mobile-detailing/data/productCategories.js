@@ -1,9 +1,8 @@
 const productCategories = [
-  "watersports",
-  "soccer",
-  "basketball",
-  "hockey",
-  "boardgames",
+  "Interior and Exterior",
+  "Interior",
+  "Exterior",
+  "Engine",
 ];
 
 module.exports = productCategories;
